@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class TernaryOddOrEven {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        // Read the input number
+        int number = scanner.nextInt();
+
+        // Write a one-line condition using ternary operator to check if the number is even or odd
+        // If the number is even, print "even"
+        // Otherwise, print "odd"
+        System.out.println(number % 2 == 0 ? "even" : "odd");
+
+        boolean b1 = false, b2 = false, b3 = false;
+        boolean result = (b1 && b2) ? b1 : (b2 || b3) ? b2 : b3;
+        System.out.println(result);
+        }
+    }
