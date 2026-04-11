@@ -6,8 +6,7 @@ public class DayOfTheWeekSwitchStatement {
 
         // Read an integer from the user
         int dayNumber = scanner.nextInt();
-        int var1 = 100;
-        int var2 = 0;
+
         // Use a switch statement to determine the day of the week
         switch (dayNumber) {
 
