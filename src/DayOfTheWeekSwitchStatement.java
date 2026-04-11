@@ -38,33 +38,6 @@ public class DayOfTheWeekSwitchStatement {
                 System.out.println("Invalid Day of The Week");
 
         }
-        switch (var1) {
-            case 100:
-                var2 += var1;
-                System.out.println(var2);
-            case 200:
-                var2 += var1 / 4;
-                System.out.println(var2);
-                break;
-            case 300:
-                var2 += var1 / 10;
-                System.out.println(var2);
-                break;
-        }
-        char ch = 'a';
-        int num = 0;
-        switch(ch) {
-            case 'a':
-                num = 10;
-
-            case 'b':
-                num = 20;
-
-
-            default:
-                num = 30;
-        }
-        System.out.println(num);
 
         scanner.close();
     }
